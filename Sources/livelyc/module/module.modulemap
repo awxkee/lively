@@ -1,0 +1,5 @@
+module livelyc {
+    header "Lively.h"
+    header "LivelyCoder.h"
+    export *
+}
