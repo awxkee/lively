@@ -14,7 +14,7 @@ let package = Package(
             targets: ["lively", "livelyc"]),
     ],
     dependencies: [
-        .package(path: "/Users/radzivonbartoshyk/iOS Projects/webp.swift"),
+        .package(url: "https://github.com/awxkee/webp.swift.git", branch: "master"),
         .package(url: "https://github.com/awxkee/avif.swift.git", branch: "master")
     ],
     targets: [
